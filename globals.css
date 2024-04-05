@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  @apply bg-gray-800;
+}
+
+html ::-webkit-scrollbar {
+  position: absolute;
+  height: 6px;
+  width: 6px;
+}
+html ::-webkit-scrollbar-thumb {
+  position: absolute;
+  cursor: pointer;
+}
+html ::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 9999px;
+  background-color: rgba(159, 159, 159, 0.5);
+}
+html ::-webkit-scrollbar-track {
+  background: transparent;
+  position: absolute;
+  z-index: 30;
+}
